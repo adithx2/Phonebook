@@ -1,4 +1,4 @@
-const apiUrl = 'https://69196cf19ccba073ee92e497.mockapi.io/phonebook'
+const apiUrl = 'https://691f2fcebb52a1db22c0d353.mockapi.io/phonebook'
 
 const contactForm = document.getElementById("addForm")
 const contactList = document.getElementById("contactList")
@@ -97,8 +97,8 @@ const editContact = async(id)=>{
             "Content-Type": "application/json"
         },
         body: JSON.stringify({
-            name: newName,
-            phone: newPhone
+            Name: newName,
+            Phone: newPhone
         })
     });
 
